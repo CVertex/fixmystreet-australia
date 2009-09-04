@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FixMyStreetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FixMyStreetAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		234168470FE755FE00B0ECC8 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234168450FE755FE00B0ECC8 /* AddressBook.framework */; };
+		234168480FE755FE00B0ECC8 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234168460FE755FE00B0ECC8 /* AddressBookUI.framework */; };
+		23526C68103E114C0066A61A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 23526C67103E114C0066A61A /* Constants.m */; };
+		2359174F0FE29CF9007A8293 /* DraggablePinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359174E0FE29CF9007A8293 /* DraggablePinView.m */; };
+		235F7E4F0FEA593100146AE8 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = 235F7E4E0FEA593100146AE8 /* person.png */; };
+		236237480FEB47E30066488A /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 236237470FEB47E30066488A /* ReadMe.txt */; };
+		23772B6C0FEF4C9600AB65C5 /* HTTPMultiPartPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 23772B6B0FEF4C9600AB65C5 /* HTTPMultiPartPost.m */; };
+		2377D0550FDE1A5C00A1B9B9 /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2377D0540FDE1A5C00A1B9B9 /* Main.xib */; };
+		2377D0590FDE1C8000A1B9B9 /* Picture 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377D0580FDE1C8000A1B9B9 /* Picture 1.png */; };
+		2377D05D0FDE216400A1B9B9 /* WhereViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377D05C0FDE216400A1B9B9 /* WhereViewController.m */; };
+		2377D0610FDE219A00A1B9B9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2377D0600FDE219A00A1B9B9 /* MapKit.framework */; };
+		2377D0650FDE220A00A1B9B9 /* WhereView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2377D0640FDE220A00A1B9B9 /* WhereView.xib */; };
+		2377D0800FDE2CC400A1B9B9 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377D07F0FDE2CC400A1B9B9 /* Problem.m */; };
+		2377D0A90FDE2F3200A1B9B9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377D0A80FDE2F3200A1B9B9 /* MainViewController.m */; };
+		2377D14C0FDE3E3400A1B9B9 /* WhatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2377D14B0FDE3E3400A1B9B9 /* WhatView.xib */; };
+		2377D1510FDE40DD00A1B9B9 /* picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 2377D1500FDE40DD00A1B9B9 /* picture.png */; };
+		2377D1540FDE416500A1B9B9 /* WhatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2377D1530FDE416500A1B9B9 /* WhatViewController.m */; };
+		237D79E20FE2783C00741D26 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237D79E10FE2783C00741D26 /* CoreLocation.framework */; };
+		23B614B90FEB097B0018EB86 /* WhoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23B614B80FEB097B0018EB86 /* WhoView.xib */; };
+		23B614BF0FEB09E40018EB86 /* WhoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B614BE0FEB09E40018EB86 /* WhoViewController.m */; };
+		23DBF4BA0FEF0FD90021FFC2 /* hovering_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DBF4B90FEF0FD90021FFC2 /* hovering_pin.png */; };
+		23DDAA3E0FE7136C003854DD /* ProblemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DDAA3D0FE7136C003854DD /* ProblemViewController.m */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FixMyStreetAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixMyStreetAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FixMyStreetAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixMyStreetAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FixMyStreet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixMyStreet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		234168450FE755FE00B0ECC8 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		234168460FE755FE00B0ECC8 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		23526C66103E114C0066A61A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		23526C67103E114C0066A61A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		2359174D0FE29CF9007A8293 /* DraggablePinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggablePinView.h; sourceTree = "<group>"; };
+		2359174E0FE29CF9007A8293 /* DraggablePinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggablePinView.m; sourceTree = "<group>"; };
+		235F7E4E0FEA593100146AE8 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = person.png; sourceTree = "<group>"; };
+		236237470FEB47E30066488A /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		23772B6A0FEF4C9600AB65C5 /* HTTPMultiPartPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMultiPartPost.h; sourceTree = "<group>"; };
+		23772B6B0FEF4C9600AB65C5 /* HTTPMultiPartPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMultiPartPost.m; sourceTree = "<group>"; };
+		2377D0540FDE1A5C00A1B9B9 /* Main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Main.xib; sourceTree = "<group>"; };
+		2377D0580FDE1C8000A1B9B9 /* Picture 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Picture 1.png"; sourceTree = "<group>"; };
+		2377D05B0FDE216400A1B9B9 /* WhereViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereViewController.h; sourceTree = "<group>"; };
+		2377D05C0FDE216400A1B9B9 /* WhereViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhereViewController.m; sourceTree = "<group>"; };
+		2377D0600FDE219A00A1B9B9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2377D0640FDE220A00A1B9B9 /* WhereView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhereView.xib; sourceTree = "<group>"; };
+		2377D07E0FDE2CC400A1B9B9 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem.h; sourceTree = "<group>"; };
+		2377D07F0FDE2CC400A1B9B9 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem.m; sourceTree = "<group>"; };
+		2377D0A70FDE2F3200A1B9B9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2377D0A80FDE2F3200A1B9B9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2377D14B0FDE3E3400A1B9B9 /* WhatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhatView.xib; sourceTree = "<group>"; };
+		2377D1500FDE40DD00A1B9B9 /* picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picture.png; sourceTree = "<group>"; };
+		2377D1520FDE416500A1B9B9 /* WhatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatViewController.h; sourceTree = "<group>"; };
+		2377D1530FDE416500A1B9B9 /* WhatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatViewController.m; sourceTree = "<group>"; };
+		237D79E10FE2783C00741D26 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		23B614B80FEB097B0018EB86 /* WhoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WhoView.xib; sourceTree = "<group>"; };
+		23B614BD0FEB09E40018EB86 /* WhoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhoViewController.h; sourceTree = "<group>"; };
+		23B614BE0FEB09E40018EB86 /* WhoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhoViewController.m; sourceTree = "<group>"; };
+		23DBF4B90FEF0FD90021FFC2 /* hovering_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hovering_pin.png; sourceTree = "<group>"; };
+		23DDAA3C0FE7136C003854DD /* ProblemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProblemViewController.h; sourceTree = "<group>"; };
+		23DDAA3D0FE7136C003854DD /* ProblemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProblemViewController.m; sourceTree = "<group>"; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* FixMyStreet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixMyStreet_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FixMyStreet-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FixMyStreet-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				2377D0610FDE219A00A1B9B9 /* MapKit.framework in Frameworks */,
+				237D79E20FE2783C00741D26 /* CoreLocation.framework in Frameworks */,
+				234168470FE755FE00B0ECC8 /* AddressBook.framework in Frameworks */,
+				234168480FE755FE00B0ECC8 /* AddressBookUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* FixMyStreetAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FixMyStreetAppDelegate.m */,
+				2377D05B0FDE216400A1B9B9 /* WhereViewController.h */,
+				2377D05C0FDE216400A1B9B9 /* WhereViewController.m */,
+				2377D07E0FDE2CC400A1B9B9 /* Problem.h */,
+				2377D07F0FDE2CC400A1B9B9 /* Problem.m */,
+				2377D0A70FDE2F3200A1B9B9 /* MainViewController.h */,
+				2377D0A80FDE2F3200A1B9B9 /* MainViewController.m */,
+				2377D1520FDE416500A1B9B9 /* WhatViewController.h */,
+				2377D1530FDE416500A1B9B9 /* WhatViewController.m */,
+				2359174D0FE29CF9007A8293 /* DraggablePinView.h */,
+				2359174E0FE29CF9007A8293 /* DraggablePinView.m */,
+				23DDAA3C0FE7136C003854DD /* ProblemViewController.h */,
+				23DDAA3D0FE7136C003854DD /* ProblemViewController.m */,
+				23B614BD0FEB09E40018EB86 /* WhoViewController.h */,
+				23B614BE0FEB09E40018EB86 /* WhoViewController.m */,
+				23772B6A0FEF4C9600AB65C5 /* HTTPMultiPartPost.h */,
+				23772B6B0FEF4C9600AB65C5 /* HTTPMultiPartPost.m */,
+				23526C66103E114C0066A61A /* Constants.h */,
+				23526C67103E114C0066A61A /* Constants.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FixMyStreet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				236237470FEB47E30066488A /* ReadMe.txt */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* FixMyStreet_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23DBF4B90FEF0FD90021FFC2 /* hovering_pin.png */,
+				235F7E4E0FEA593100146AE8 /* person.png */,
+				2377D1500FDE40DD00A1B9B9 /* picture.png */,
+				2377D0580FDE1C8000A1B9B9 /* Picture 1.png */,
+				2377D0540FDE1A5C00A1B9B9 /* Main.xib */,
+				2377D0640FDE220A00A1B9B9 /* WhereView.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* FixMyStreet-Info.plist */,
+				2377D14B0FDE3E3400A1B9B9 /* WhatView.xib */,
+				23B614B80FEB097B0018EB86 /* WhoView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234168450FE755FE00B0ECC8 /* AddressBook.framework */,
+				234168460FE755FE00B0ECC8 /* AddressBookUI.framework */,
+				237D79E10FE2783C00741D26 /* CoreLocation.framework */,
+				2377D0600FDE219A00A1B9B9 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FixMyStreet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FixMyStreet" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FixMyStreet;
+			productName = FixMyStreet;
+			productReference = 1D6058910D05DD3D006BFB54 /* FixMyStreet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FixMyStreet" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FixMyStreet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2377D0550FDE1A5C00A1B9B9 /* Main.xib in Resources */,
+				2377D0590FDE1C8000A1B9B9 /* Picture 1.png in Resources */,
+				2377D0650FDE220A00A1B9B9 /* WhereView.xib in Resources */,
+				2377D14C0FDE3E3400A1B9B9 /* WhatView.xib in Resources */,
+				2377D1510FDE40DD00A1B9B9 /* picture.png in Resources */,
+				235F7E4F0FEA593100146AE8 /* person.png in Resources */,
+				23B614B90FEB097B0018EB86 /* WhoView.xib in Resources */,
+				236237480FEB47E30066488A /* ReadMe.txt in Resources */,
+				23DBF4BA0FEF0FD90021FFC2 /* hovering_pin.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FixMyStreetAppDelegate.m in Sources */,
+				2377D05D0FDE216400A1B9B9 /* WhereViewController.m in Sources */,
+				2377D0800FDE2CC400A1B9B9 /* Problem.m in Sources */,
+				2377D0A90FDE2F3200A1B9B9 /* MainViewController.m in Sources */,
+				2377D1540FDE416500A1B9B9 /* WhatViewController.m in Sources */,
+				2359174F0FE29CF9007A8293 /* DraggablePinView.m in Sources */,
+				23DDAA3E0FE7136C003854DD /* ProblemViewController.m in Sources */,
+				23B614BF0FEB09E40018EB86 /* WhoViewController.m in Sources */,
+				23772B6C0FEF4C9600AB65C5 /* HTTPMultiPartPost.m in Sources */,
+				23526C68103E114C0066A61A /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FixMyStreet_Prefix.pch;
+				INFOPLIST_FILE = "FixMyStreet-Info.plist";
+				PRODUCT_NAME = FixMyStreet;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FixMyStreet_Prefix.pch;
+				INFOPLIST_FILE = "FixMyStreet-Info.plist";
+				PRODUCT_NAME = FixMyStreet;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FixMyStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FixMyStreet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
