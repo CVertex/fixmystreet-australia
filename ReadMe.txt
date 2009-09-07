@@ -9,4 +9,4 @@ style web application. It has been developed with the intention of using it to r
 'FixMyStreet' at http://www.FixMyStreet.com so other people may wish modify this application for use with their
 web site.
 
-Jake
+Jake.
